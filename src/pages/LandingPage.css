@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;800&display=swap');
+
+
+
+#background--video {
+  object-fit:cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+/* #background--video{
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;  
+} */
+
+.content h3{
+  font-weight: 400;
+  font-size: 25px;
+  position: relative;
+  left: -50%;
+  padding-bottom: 20%;
+  
+}
+
+.content {
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    color: #f6f6ef;
+    padding-top: 30%;
+    padding-left: 30%;
+    padding-bottom: 30%;
+    padding-right: 30%;
+  }
+
+.landing--btn {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.9em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 20px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: relative;
+}
+
+.landing--btn:hover,
+.landing--btn:focus-visible{
+  --_p: 0px;
+  color:white;
+  outline-offset: .05em;
+}
+
+.landing--btn:active {
+  background: var(--color);
+  color: #fff;
+}
