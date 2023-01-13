@@ -1,70 +1,98 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Fitzone 
 
-In the project directory, you can run:
+<img src="https://github.com/KarlaGussnecker/Fitness--project/blob/main/1.png" align="right"
+     alt="" width="200" height="250">
+     
+<br>
+<br>
+<br>
 
-### `npm start`
+I created this project to try out and play around with the "React Router" library from React. It is indeed easy to work with, easy to link pages within a website and since it uses client side routing, it's very fast when switching between pages since it's not making requests from the server. You can read all the documentation about "React Router" [here](https://reactrouter.com/en/main). I decided to use their most common components BrowserRouter and the Link element. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<img src="https://github.com/KarlaGussnecker/Fitness--project/blob/main/3.png" align="left"
+     alt="" width="300" height="150">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The landing page consists of a background video, a animated button and the footer. After pressing the button the user is taken on to the home page where you have a navbar with three elements and some dummy text. I've split the three elements from the navigation bar in to their own components and by clicking them they take you to a different page each.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="https://github.com/KarlaGussnecker/Fitness--project/blob/main/4.png" align="right"
+     alt="" width="300" height="150">
+     
+ <br>
+Firstly in the Sign Up area I've made a form using TypeForm and pasted it in my project as a Widget component so it's fully functional but since I only got the free version from their website the clicks are limited. 
 
-### `npm run eject`
+<br>
+<br>
+<br>
+<img src="https://github.com/KarlaGussnecker/Fitness--project/blob/main/6.png" align="left"
+     alt="" width="300" height="150">
+     
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The About section just has some dummy text and in the FAQ section I've installed a React package that I've found online called react-FAQ-component that basically generates a simple "frequently asked questions" section. More information on how to use it [here](https://www.npmjs.com/package/react-faq-component).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="https://github.com/KarlaGussnecker/Fitness--project/blob/main/7.png" align="right"
+     alt="" width="300" height="170">
+     
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The idea of creating a Error page came from reading the React Router documentation where it mentions something similar and I of course decided to make a slightly funnier version. So in case there is a misspelling in the url this error page will pop up, but no worries as there is a home button on there to guide the user back to safety.
 
-## Learn More
+<br>
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project is deployed using [Vercel](https://vercel.com/dashboard) and you can check it out [HERE](https://fitness-project-azure.vercel.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Use the package manager [npm](https://www.npmjs.com) to install the project.
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/KarlaGussnecker/Fitness--project.git
+npm install
+npm start
+```
+<br/>
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Tools used
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Node.js
+* Javascript
+* React
+* ReactRouter library
+* React FAQ component
+* CSS
+* TypeForm
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br/>
+<br/>
 
-### Deployment
+## Support new developers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<a href="https://www.buymeacoffee.com/igorantun" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br/>
+<br/>
+<h1 align="center">THANK YOU!</h1>
+
+
+
+
+
