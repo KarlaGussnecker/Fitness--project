@@ -5,7 +5,7 @@ import { About } from "./pages/About";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { SignUp } from "./pages/SignUp";
-import { Faq } from "./pages/Faq";
+import { Questions } from "./pages/Questions";
 
 function App() {
   const year = new Date().getFullYear();
@@ -16,7 +16,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/faq" element={<Faq />} />
+        <Route path="/questions" element={<Questions />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <footer>{`Copyright © KarlaGussnecker ${year}`}</footer>

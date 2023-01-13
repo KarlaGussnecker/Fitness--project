@@ -12,7 +12,7 @@ export function Navbar() {
           <Link to="/about">ABOUT</Link>
         </li>
         <li>
-          <Link to="/FAQ">FAQ</Link>
+          <Link to="/questions">FAQ</Link>
         </li>
       </ul>
     </nav>
